@@ -1,0 +1,36 @@
+/*shared common style*/
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #E55473;
+    padding: 15px 25px;
+    /* font-size: 18px; */
+    border: none;
+    color: white;
+}
+/*header style*/
+.header-container{
+    background-color:rgba(229, 84, 115, 0.10);
+    display: flex;
+    padding: 50px 50px 0 100px;
+}
+.header-content{
+    padding: 20px 80px;
+}
+
+.header-content .header-title{
+    font-size: 60px;
+}
+
+.header-content .header-dic{
+    color: rgba(39, 39, 39, 0.60);
+    margin-right: 10px;
+}
+.header-img img{
+    width: 400px;
+    margin-right: 50px;
+}

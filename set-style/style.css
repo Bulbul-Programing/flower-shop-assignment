@@ -13,7 +13,8 @@ body {
     color: white;
     margin-top: 10px;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     cursor: pointer;
     background: #ff5177;
 }
@@ -234,25 +235,29 @@ body {
 
 /*footer section style*/
 
-.footer-section{
+.footer-section {
     text-align: center;
     padding: 50px;
-    background-color:#111010;
+    background-color: #111010;
 }
-.footer-section h1{
+
+.footer-section h1 {
     color: white;
 }
-.footer-section h1 span{
-    color:#E55473;
+
+.footer-section h1 span {
+    color: #E55473;
     font-weight: 800;
 }
-.footer-section p{
+
+.footer-section p {
     color: rgba(233, 233, 233, 0.9);
     font-weight: 400;
     font-size: 15px;
     margin-bottom: 20px;
 }
-.footer-section p small{
+
+.footer-section p small {
     font-size: 13px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.40);

@@ -164,3 +164,27 @@ body {
     width: 200px;
     margin-left: 50px;
 }
+
+/* Instagram section style*/
+
+.instagram-section{
+    text-align: center;
+    margin-top: 100px;
+}
+.instagram-section h2{
+    color: #272727;
+    font-size: 25px;
+    font-weight: 800;
+}
+.instagram-section p{
+    color: rgba(39, 39, 39, 0.60);
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.instagram-section-img img{
+    width: 230px;
+    margin-right: 15px;
+}
+
+/* latest deal section style*/
+

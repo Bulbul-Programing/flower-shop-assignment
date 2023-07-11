@@ -20,8 +20,42 @@ body {
 }
 
 /*header style*/
-.header-container {
+
+header {
     background-color: rgba(229, 84, 115, 0.10);
+}
+
+/*nav style*/
+
+nav {
+    margin: 0px 100px 0 180px;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 90px;
+}
+
+.nav-element a {
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: rgba(253, 77, 115, 0.479);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+}
+
+.nav-element a:hover {
+    background-color: rgba(255, 73, 113, 0.664);
+}
+
+.header-container {
+    /* background-color: rgba(229, 84, 115, 0.10); */
     display: flex;
     padding: 50px 50px 0 100px;
 }
@@ -112,6 +146,33 @@ body {
     color: black;
     font-weight: 700;
 }
+
+/*best sell flower style*/
+.best-sell {
+    text-align: center;
+}
+
+.best-sell-flower-container {
+    display: flex;
+    text-align: center;
+    margin: 20px 40px;
+}
+
+.best-sell-flower img {
+    width: 270px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px rgba(207, 207, 207, 0.603);
+}
+
+.best-sell-flower a {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #111010;
+}
+
+/*delivery section style*/
 
 .delivery-section {
     margin: 100px 150px;

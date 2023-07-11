@@ -38,7 +38,7 @@ body{
     margin-right: 50px;
 }
 .future-flower{
-    margin: 100px 180px;
+    margin: 100px 150px;
     text-align: center;
 }
 .future-flower h1{
@@ -91,5 +91,27 @@ body{
 }
 .future-flower-img a{
     color: black;
-    font-size: 20px;
+    font-weight: 700;
+}
+
+.delivery-section{
+    margin: 100px 150px;
+    
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05)
+}
+.delivery-section .delivery-container{
+    display: flex;
+    padding: 50px 100px;
+    justify-content: space-between;
+}
+
+.delivery-section img{
+    width: 60px;
+}
+.delivery-container p{
+    color: rgba(39, 39, 39, 0.80);
+    font-weight: 700px;
+    font-size: 18px;
 }

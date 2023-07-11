@@ -13,6 +13,10 @@ body {
     color: white;
     margin-top: 10px;
 }
+.btn-primary:hover{
+    cursor: pointer;
+    background: #ff5177;
+}
 
 /*header style*/
 .header-container {
@@ -41,7 +45,8 @@ body {
     width: 400px;
     margin-right: 50px;
 }
- /*future flower style*/
+
+/*future flower style*/
 .future-flower {
     margin: 100px 150px;
     text-align: center;
@@ -109,7 +114,6 @@ body {
 
 .delivery-section {
     margin: 100px 150px;
-
     text-align: center;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05)
@@ -167,24 +171,89 @@ body {
 
 /* Instagram section style*/
 
-.instagram-section{
+.instagram-section {
     text-align: center;
     margin-top: 100px;
 }
-.instagram-section h2{
+
+.instagram-section h2 {
     color: #272727;
     font-size: 25px;
     font-weight: 800;
 }
-.instagram-section p{
+
+.instagram-section p {
     color: rgba(39, 39, 39, 0.60);
     font-weight: 400;
     margin-bottom: 30px;
 }
-.instagram-section-img img{
+
+.instagram-section-img img {
     width: 230px;
     margin-right: 15px;
 }
 
 /* latest deal section style*/
 
+.latest-deal-section {
+    text-align: center;
+    margin: 100px 150px 100px 140px;
+    background-image: url('../Flower Asset/Rectangle 9.png');
+    background-size: cover;
+}
+
+.latest-deal-contain {
+    padding: 60px;
+}
+
+.latest-deal-contain input {
+    height: 45px;
+    width: 480px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.latest-deal-contain h1 {
+    color: #272727;
+    font-family: Lato;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.latest-deal-contain p {
+    color: rgba(39, 39, 39, 0.60);
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 0;
+}
+
+.latest-deal-contain input::placeholder {
+    padding: 0 20px;
+}
+
+/*footer section style*/
+
+.footer-section{
+    text-align: center;
+    padding: 50px;
+    background-color:#111010;
+}
+.footer-section h1{
+    color: white;
+}
+.footer-section h1 span{
+    color:#E55473;
+    font-weight: 800;
+}
+.footer-section p{
+    color: rgba(233, 233, 233, 0.9);
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.footer-section p small{
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.40);
+}
